@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simo Pokaha Russel Arol — Portfolio BTS SIO SISR</title>
+  <meta name="description" content="Portfolio de Simo Pokaha Russel Arol, étudiant en BTS SIO option SISR à l'Institut F2I de Vincennes.">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=3">
+</head>
+
+<body class="bg-dark text-gray-200">
+
+  <!-- Background gradient -->
+  <div class="bg-grid"></div>
+
+  <!-- Interactive Gaming Canvas Background (Light Mode Only) -->
+  <canvas id="gaming-canvas" class="gaming-canvas"></canvas>
+
+  <!-- Parallax Floating Shapes -->
+  <div id="parallaxContainer" class="parallax-shapes"></div>
+
+  <!-- Theme Transition Layer -->
+  <div id="themeTransition" class="theme-transition-overlay"></div>
+
+  <!-- Custom Cursor & Flashlight -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+  <div class="flashlight"></div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-logo-img sidebar-logo-placeholder" aria-hidden="true">SP</div>
+      <div>
+        <div class="flex items-center justify-between gap-4 mb-2">
+          <p class="sidebar-name">Simo Pokaha Russel Arol</p>
+          <button id="themeToggle" class="theme-switch" aria-label="Changer de thème">
+            <div class="switch-track">
+              <div class="switch-knob">
+                <span class="icon-sun">☀️</span>
+                <span class="icon-moon">🌙</span>
+              </div>
+            </div>
+          </button>
+        </div>
+        <p class="sidebar-subtitle">BTS SIO — Option SISR</p>
+      </div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="#accueil" class="nav-link">Accueil</a>
+      <a href="#profil" class="nav-link">Profil</a>
+      <a href="#parcours" class="nav-link">Parcours</a>
+      <a href="#e6" class="nav-link">Epreuve Technique E6</a>
+      <a href="#competences" class="nav-link">Compétences</a>
+      <a href="#projets" class="nav-link">Projets</a>
+      <a href="#experiences" class="nav-link">Expériences</a>
+      <a href="#certifications" class="nav-link">Certifications</a>
+      <a href="#veille" class="nav-link">Veille</a>
+      <a href="#documents-officiels" class="nav-link">Documents Officiels</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <p style="margin-top: 0.75rem;">© 2026 Simo Pokaha Russel Arol</p>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- Accueil -->
+    <section id="accueil" class="hero-section">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12 px-6">
+        <!-- Left: Image -->
+        <div class="hero-image-container order-2 md:order-1" data-aos="fade-right">
+          <div class="profile-glow"></div>
+          <img src="logo/photo_profil.jpeg" alt="Photo de Simo Pokaha Russel Arol" class="profile-img">
+        </div>
+
+        <!-- Right: Text Content -->
+        <div class="hero-content text-center md:text-left md:flex-1 order-1 md:order-2" data-aos="fade-left">
+          <div class="flex items-center justify-center md:justify-start gap-3 mb-6 hero-subtitle">
+            <img src="logo/logo_f2I.png" alt="Logo de l'Institut F2I" class="h-16 w-16 object-contain rounded-lg shadow-lg">
+            <p class="text-accent text-sm tracking-widest font-semibold uppercase">Institut F2I — Vincennes</p>
+          </div>
+          <h1 class="hero-title text-5xl md:text-7xl mb-4">Simo Pokaha Russel Arol</h1>
+          <p class="text-xl md:text-2xl text-gray-400 mb-4 font-light leading-relaxed">Étudiant en BTS SIO, option SISR</p>
+          <div class="flex items-center justify-center md:justify-start gap-2 text-sm text-gray-500 mb-8">
+            <span class="text-xl">📍</span>
+            <span>Institut F2I — Vincennes</span>
+          </div>
+          <div class="flex gap-4 justify-center md:justify-start hero-buttons">
+            <a href="#profil" class="btn-primary antigravity-glow">Découvrir →</a>
+            <a href="#contact" class="btn-secondary antigravity-glow">Me contacter</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Indicateur de défilement -->
+      <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="600">
+        <div class="mouse-scroll">
+          <div class="mouse-wheel"></div>
+        </div>
+        <span class="scroll-text">Défiler</span>
+      </div>
+    </section>
+
+
+
+    <!-- Profil -->
+    <section id="profil" class="section" data-aos="fade-up">
+      <h2 class="section-title"><span>Profil</span></h2>
+      <div class="section-divider"></div>
+      <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
+        <div class="card card-hover stagger-item">
+          <h3 class="card-title">📋 Informations</h3>
+          <ul class="space-y-3 text-gray-300">
+            <li class="flex justify-between"><span class="text-gray-500">Formation</span> <span>BTS SIO, option SISR</span></li>
+            <li class="flex justify-between"><span class="text-gray-500">Établissement</span> <span>Institut F2I, Vincennes</span></li>
+            <li class="flex justify-between"><span class="text-gray-500">Période</span> <span>2025–2027</span></li>
+          </ul>
+          <a href="#contact" class="btn-accent antigravity-glow mt-4 inline-block text-center w-full text-sm">✉️ Me
+            contacter →</a>
+        </div>
+        <div class="card card-hover stagger-item">
+          <h3 class="card-title">✨ À propos</h3>
+          <p class="text-gray-300 leading-relaxed mb-4">
+            Je prépare un BTS Services Informatiques aux Organisations, option Solutions d'Infrastructure, Systèmes et Réseaux, à l'Institut F2I de Vincennes. Ma formation porte sur l'administration des systèmes et réseaux, la sécurité informatique et la gestion d'infrastructures.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="tag">Curieux</span>
+            <span class="tag">Rigoureux</span>
+            <span class="tag">Autonome</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="parcours" class="section" data-aos="fade-up">
+      <h2 class="section-title"><span>Parcours</span></h2>
+      <div class="section-divider"></div>
+      <div class="max-w-2xl mx-auto">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="text-accent text-sm font-medium">2020 - 2021</span>
+              <h3 class="font-semibold text-white mt-1">BEPC</h3>
+              <p class="text-gray-500 text-sm">Brevet d'Études du Premier Cycle</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="text-accent text-sm font-medium">2022 - 2023</span>
+              <h3 class="font-semibold text-white mt-1">Probatoire</h3>
+              <p class="text-gray-500 text-sm">Diplôme du Probatoire</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="text-accent text-sm font-medium">2023 - 2024</span>
+              <h3 class="font-semibold text-white mt-1">Baccalauréat Général</h3>
+              <p class="text-gray-500 text-sm">Lycée de Nkolmesseng</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="text-accent text-sm font-medium">2025 - 2027</span>
+              <h3 class="font-semibold text-white mt-1">BTS SIO — Option SISR</h3>
+              <p class="text-gray-500 text-sm">Institut F2I, Vincennes — En cours</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Epreuve Technique E6 -->
+    <section id="e6" class="section" data-aos="fade-up">
+      <h2 class="section-title"><span>Epreuve Technique E6</span></h2>
+      <p class="section-subtitle">Projet LEBONCOIN — application de petites annonces en PHP et MySQL</p>
+      <div class="section-divider"></div>
+
+      <div class="max-w-6xl mx-auto space-y-8">
+        <div class="grid md:grid-cols-2 gap-6 items-stretch">
+          <div class="card card-hover">
+            <p class="text-accent text-xs font-semibold uppercase mb-2">Projet d'équipe</p>
+            <h3 class="card-title">Une plateforme d'annonces de bout en bout</h3>
+            <p class="text-gray-400 leading-relaxed">Conception d'une application permettant aux utilisateurs de créer un compte, publier et gérer des annonces, rechercher des produits, enregistrer des favoris et échanger avec les vendeurs.</p>
+            <div class="flex flex-wrap gap-2 mt-4">
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">HTML / CSS</span>
+              <span class="tag">Authentification</span>
+            </div>
+          </div>
+
+          <div class="card card-hover">
+            <h3 class="card-title">Équipe et responsabilités</h3>
+            <ul class="space-y-3 text-gray-300 text-sm">
+              <li><strong class="text-white">Russel</strong> — pilotage, architecture système et authentification</li>
+              <li><strong class="text-white">Daniel</strong> — gestion du cycle de vie des annonces</li>
+              <li><strong class="text-white">Lamine</strong> — recherche et consultation des annonces</li>
+              <li><strong class="text-white">Rodrigue</strong> — messagerie et favoris</li>
+              <li><strong class="text-white">Kellyan</strong> — conception UI/UX</li>
+            </ul>
+          </div>
+        </div>
+
+        <figure class="card">
+          <img src="assets/leboncoin-parcours.svg" alt="Illustrations des interfaces d'inscription, de publication, de recherche, de favoris et de messagerie du projet Leboncoin" class="w-full h-auto">
+          <figcaption class="text-gray-500 text-xs mt-3 text-center">Illustrations reconstruites à partir du dossier projet transmis; elles ne remplacent pas les captures d'écran originales.</figcaption>
+        </figure>
+
+        <div>
+          <h3 class="text-accent font-semibold text-lg mb-4">Fonctionnalités réalisées</h3>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <article class="card card-hover"><h4 class="font-semibold text-white mb-2">Compte et connexion</h4><p class="text-gray-400 text-sm">Inscription par e-mail et mot de passe, connexion avec contrôle des identifiants et gestion de session.</p></article>
+            <article class="card card-hover"><h4 class="font-semibold text-white mb-2">Annonces</h4><p class="text-gray-400 text-sm">Publication avec titre, prix, catégorie, description et photo; modification et suppression des annonces de l'utilisateur.</p></article>
+            <article class="card card-hover"><h4 class="font-semibold text-white mb-2">Recherche et consultation</h4><p class="text-gray-400 text-sm">Affichage des annonces, recherche par mot-clé, filtre par catégorie et accès aux informations d'une annonce.</p></article>
+            <article class="card card-hover"><h4 class="font-semibold text-white mb-2">Favoris</h4><p class="text-gray-400 text-sm">Ajout et retrait d'annonces dans une liste personnelle pour les retrouver facilement.</p></article>
+            <article class="card card-hover"><h4 class="font-semibold text-white mb-2">Messagerie</h4><p class="text-gray-400 text-sm">Envoi d'un message depuis une annonce et consultation des messages reçus.</p></article>
+            <article class="card card-hover"><h4 class="font-semibold text-white mb-2">Données</h4><p class="text-gray-400 text-sm">Stockage des utilisateurs, annonces, favoris et messages dans une base MySQL.</p></article>
+          </div>
+        </div>
+
+        <figure class="card">
+          <img src="assets/leboncoin-gantt.svg" alt="Diagramme de Gantt du projet, de la conception du 20 mars aux tests finaux du 21 avril 2026" class="w-full h-auto">
+          <figcaption class="text-gray-500 text-xs mt-3 text-center">Planning transmis : conception, développement, design, puis tests et validation.</figcaption>
+        </figure>
+
+        <div class="flex justify-center">
+          <a href="pdf/projets/documentation-leboncoin.html" target="_blank" rel="noopener" class="btn-primary inline-flex items-center gap-2">
+            <i class="fas fa-file-alt" aria-hidden="true"></i> Consulter la documentation du projet
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNOLOGIES MAÎTRISÉES -->
+    <section id="technologies" class="py-16 bg-black/30">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-8" data-aos="fade-up">
+          <h2 class="text-3xl font-bold mb-2">Technologies & <span class="text-accent">Outils Maîtrisés</span></h2>
+          <p class="text-muted text-sm" style="color: var(--text-muted);">Systèmes, réseaux, sécurité et gestion de parc
+            informatique</p>
+        </div>
+
+        <!-- Boutons de filtre -->
+        <div class="flex flex-wrap justify-center gap-3 mb-10" data-aos="fade-up">
+          <button onclick="filterTech('all')" class="tech-filter active" data-filter="all">
+            <i class="fas fa-th-large mr-2"></i>Tous
+          </button>
+          <button onclick="filterTech('système')" class="tech-filter" data-filter="système">
+            <i class="fas fa-server mr-2"></i>Systèmes
+          </button>
+          <button onclick="filterTech('réseau')" class="tech-filter" data-filter="réseau">
+            <i class="fas fa-network-wired mr-2"></i>Réseau
+          </button>
+          <button onclick="filterTech('sécurité')" class="tech-filter" data-filter="sécurité">
+            <i class="fas fa-shield-alt mr-2"></i>Sécurité
+          </button>
+          <button onclick="filterTech('outil')" class="tech-filter" data-filter="outil">
+            <i class="fas fa-tools mr-2"></i>Outils
+          </button>
+        </div>
+
+        <div class="tech-slider" data-aos="fade-up">
+          <div class="tech-track">
+            <!-- Set 1 -->
+            <div class="tech-icon" data-category="système">
+              <img src="logo/logo proxmox.png" alt="Proxmox">
+              <span>Proxmox</span>
+            </div>
+            <div class="tech-icon" data-category="système">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg"
+                alt="Windows">
+              <span>AD DS</span>
+            </div>
+            <div class="tech-icon" data-category="outil">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" alt="SSH">
+              <span>SSH</span>
+            </div>
+            <div class="tech-icon" data-category="système">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" alt="Debian">
+              <span>Debian</span>
+            </div>
+            <div class="tech-icon" data-category="sécurité">
+              <img src="logo/pfsense logo.png" alt="pfSense"
+                style="width: 48px; height: 48px; object-fit: contain; border-radius: 4px;">
+              <span>pfSense</span>
+            </div>
+            <div class="tech-icon" data-category="outil sécurité">
+              <img src="logo/metasploit 2 logo.png" alt="Metasploit" style="object-fit: contain;">
+              <span>Metasploit</span>
+            </div>
+            <div class="tech-icon" data-category="sécurité">
+              <img src="logo/logo lynis.png" alt="Lynis" style="object-fit: contain;">
+              <span>Lynis</span>
+            </div>
+            <div class="tech-icon" data-category="outil">
+              <img src="logo/logo glpi.png" alt="GLPI" style="object-fit: contain;">
+              <span>GLPI</span>
+            </div>
+            <div class="tech-icon" data-category="réseau">
+              <img src="logo/logo cisco.png" alt="Cisco Switching" style="object-fit: contain;">
+              <span>Cisco Switching</span>
+            </div>
+            <div class="tech-icon" data-category="réseau">
+              <img src="logo/logo cisco.png" alt="Cisco Routing" style="object-fit: contain;">
+              <span>Cisco Routing</span>
+            </div>
+            <div class="tech-icon" data-category="outil">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+              <span>Git</span>
+            </div>
+            <div class="tech-icon" data-category="outil">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+              <span>VS Code</span>
+            </div>
+            <div class="tech-icon" data-category="système">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Vmware.svg" alt="VMware">
+              <span>VMware</span>
+            </div>
+            <div class="tech-icon" data-category="système">
+              <img src="logo/logo proxmox.png" alt="ESXi" style="filter: grayscale(100%);">
+              <span>ESXi</span>
+            </div>
+            <div class="tech-icon" data-category="système">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="VirtualBox">
+              <span>VirtualBox</span>
+            </div>
+            <div class="tech-icon" data-category="réseau">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wireshark/wireshark-original.svg"
+                alt="Wireshark">
+              <span>Wireshark</span>
+            </div>
+            <div class="tech-icon" data-category="système">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu">
+              <span>Ubuntu</span>
+            </div>
+            <div class="tech-icon" data-category="outil">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg"
+                alt="PowerShell">
+              <span>PowerShell</span>
+            </div>
+            <div class="tech-icon" data-category="réseau">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" alt="Apache">
+              <span>Apache</span>
+            </div>
+            <div class="tech-icon" data-category="outil">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"
+                style="width: 48px; height: 48px;">
+              <span>MySQL</span>
+            </div>
+
+            <!-- Set 2 -->
+            <div class="tech-icon" data-category="système">
+              <img src="logo/logo proxmox.png" alt="Proxmox">
+              <span>Proxmox</span>
+            </div>
+            <div class="tech-icon" data-category="système">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg"
+                alt="Windows">
+              <span>AD DS</span>
+            </div>
+            <div class="tech-icon" data-category="outil">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" alt="SSH">
+              <span>SSH</span>
+            </div>
+            <div class="tech-icon" data-category="système">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" alt="Debian">
+              <span>Debian</span>
+            </div>
+            <div class="tech-icon" data-category="sécurité">
+              <img src="logo/pfsense logo.png" alt="pfSense"
+                style="width: 48px; height: 48px; object-fit: contain; border-radius: 4px;">
+              <span>pfSense</span>
+            </div>
+            <div class="tech-icon" data-category="outil sécurité">
+              <img src="logo/metasploit 2 logo.png" alt="Metasploit" style="object-fit: contain;">
+              <span>Metasploit</span>
+            </div>
+            <div class="tech-icon" data-category="sécurité">
+              <img src="logo/logo lynis.png" alt="Lynis" style="object-fit: contain;">
+              <span>Lynis</span>
+            </div>
+            <div class="tech-icon" data-category="outil">
+              <img src="logo/logo glpi.png" alt="GLPI" style="object-fit: contain;">
+              <span>GLPI</span>
+            </div>
+            <div class="tech-icon" data-category="réseau">
+              <img src="logo/logo cisco.png" alt="Cisco Switching" style="object-fit: contain;">
+              <span>Cisco Switching</span>
+            </div>
+            <div class="tech-icon" data-category="réseau">
+              <img src="logo/logo cisco.png" alt="Cisco Routing" style="object-fit: contain;">
+              <span>Cisco Routing</span>
+            </div>
+            <div class="tech-icon" data-category="outil">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+              <span>Git</span>
+            </div>
+            <div class="tech-icon" data-category="outil">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+              <span>VS Code</span>
+            </div>
+            <div class="tech-icon" data-category="système">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Vmware.svg" alt="VMware">
+              <span>VMware</span>
+            </div>
+            <div class="tech-icon" data-category="système">
+              <img src="logo/logo proxmox.png" alt="ESXi" style="filter: grayscale(100%);">
+              <span>ESXi</span>
+            </div>
+            <div class="tech-icon" data-category="système">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="VirtualBox">
+              <span>VirtualBox</span>
+            </div>
+            <div class="tech-icon" data-category="réseau">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wireshark/wireshark-original.svg"
+                alt="Wireshark">
+              <span>Wireshark</span>
+            </div>
+            <div class="tech-icon" data-category="système">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu">
+              <span>Ubuntu</span>
+            </div>
+            <div class="tech-icon" data-category="outil">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg"
+                alt="PowerShell">
+              <span>PowerShell</span>
+            </div>
+            <div class="tech-icon" data-category="réseau">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" alt="Apache">
+              <span>Apache</span>
+            </div>
+            <div class="tech-icon" data-category="outil">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"
+                style="width: 48px; height: 48px;">
+              <span>MySQL</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compétences (Les grosses cartes) -->
+    <section id="competences" class="section pt-8" data-aos="fade-up">
+      <h2 class="section-title"><span>Expertise Technique détaillée</span></h2>
+      <div class="section-divider"></div>
+
+      <div class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- 1. Cybersécurité & Réseau -->
+        <div id="comp-securite" class="card card-hover stagger-item" data-category="sécurité">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="logo-container">
+              <img src="logo/pfsense logo.png" alt="pfSense">
+            </div>
+            <h3 class="font-semibold text-white">Cybersécurité & Pare-feu</h3>
+          </div>
+          <p class="text-gray-400 text-sm mb-4">Configuration pfSense, règles de filtrage, NAT, sécurisation des réseaux
+            locaux.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="badge">pfSense</span>
+            <span class="badge">DHCP</span>
+            <span class="badge">DNS</span>
+          </div>
+          <div class="super-skill-docs">
+            <a href="pdf/doc_technique/pfsense.pdf" target="_blank" class="super-skill-doc-link">
+              <i class="fa-solid fa-file-pdf text-red-500 super-skill-doc-icon"></i>
+              <span>Documentation pfSense</span>
+            </a>
+            <a href="pdf/doc_technique/documentation instalation et utilisation Lynis .pdf" target="_blank"
+              class="super-skill-doc-link">
+              <i class="fa-solid fa-file-pdf text-red-500 super-skill-doc-icon"></i>
+              <span>Audit système Lynis</span>
+            </a>
+            <a href="pdf/doc_technique/Installation de Metasploitable 2 sur l'Hyperviseur Proxmox VE.pdf"
+              target="_blank" class="super-skill-doc-link">
+              <i class="fa-solid fa-file-pdf text-red-500 super-skill-doc-icon"></i>
+              <span>Metasploitable 2</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. Gestion de Parc & Support IT -->
+        <div id="comp-support" class="card card-hover stagger-item" data-category="outil">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="logo-container">
+              <img src="logo/logo glpi.png" alt="GLPI">
+            </div>
+            <h3 class="font-semibold text-white">Gestion de Parc</h3>
+          </div>
+          <p class="text-gray-400 text-sm mb-4">Déploiement et administration GLPI — inventaire informatique, gestion
+            des incidents (tickets) et déploiement.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="badge">GLPI</span>
+            <span class="badge">Agent GLPI</span>
+            <span class="badge">SNMP</span>
+          </div>
+          <div class="super-skill-docs">
+            <a href="pdf/doc_technique/Documentation-Installation GLPI sur Debian (1) (1).pdf" target="_blank"
+              class="super-skill-doc-link">
+              <i class="fa-solid fa-file-pdf text-gray-400 super-skill-doc-icon"></i>
+              <span>Installation GLPI sur Debian</span>
+            </a>
+            <a href="pdf/doc_technique/doc insta et utili de  SNMP.pdf" target="_blank" class="super-skill-doc-link">
+              <i class="fa-solid fa-file-pdf text-purple-400 super-skill-doc-icon"></i>
+              <span>SNMP Windows server 2022</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. Administration & Active Directory -->
+        <div id="comp-windows" class="card card-hover stagger-item" data-category="système">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="logo-container">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg"
+                alt="Active Directory">
+            </div>
+            <h3 class="font-semibold text-white">Administration & AD</h3>
+          </div>
+          <p class="text-gray-400 text-sm mb-4">Installation Active Directory DS, GPO, gestion DNS/DHCP, et
+            administration sous Windows Server 2022.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="badge">AD DS</span>
+            <span class="badge">GPO</span>
+            <span class="badge">Windows Server</span>
+          </div>
+          <div class="super-skill-docs">
+            <a href="pdf/doc_technique/Documentation-Installation Active Directory (AD DS) Windows Server 2022.pdf"
+              target="_blank" class="super-skill-doc-link">
+              <i class="fa-solid fa-file-pdf text-purple-400 super-skill-doc-icon"></i>
+              <span>Installation AD DS</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. Infrastructures Réseau -->
+        <div id="comp-reseau" class="card card-hover stagger-item" data-category="réseau">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="logo-container">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/networkx/networkx-original.svg" alt="Réseau"
+                style="filter: invert(1);">
+            </div>
+            <h3 class="font-semibold text-white">Infrastructures Réseau</h3>
+          </div>
+          <p class="text-gray-400 text-sm mb-4">Configuration de commutateurs (switchs), routeurs, VLANs — conception
+            d'architectures réseau Cisco.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="badge">Switch</span>
+            <span class="badge">Routeur</span>
+            <span class="badge">Cisco IOS</span>
+          </div>
+          <div class="super-skill-docs">
+            <a href="pdf/doc_technique/switch.pdf" target="_blank" class="super-skill-doc-link">
+              <i class="fa-solid fa-file-pdf text-gray-400 super-skill-doc-icon"></i>
+              <span>Commandes Switching</span>
+            </a>
+            <a href="pdf/doc_technique/doc commandes routeur cisco.pdf" target="_blank" class="super-skill-doc-link">
+              <i class="fa-solid fa-file-pdf text-yellow-400 super-skill-doc-icon"></i>
+              <span>Commandes Routing</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 5. Virtualisation -->
+        <div id="comp-virtu" class="card card-hover stagger-item" data-category="système">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="logo-container">
+              <img src="logo/logo proxmox.png" alt="Virtualisation">
+            </div>
+            <h3 class="font-semibold text-white">Virtualisation</h3>
+          </div>
+          <p class="text-gray-400 text-sm mb-4">Déploiement de l'hyperviseur Proxmox VE, création et administration de
+            machines virtuelles et conteneurs.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="badge">Proxmox</span>
+            <span class="badge">ESXi</span>
+            <span class="badge">VMware</span>
+          </div>
+          <div class="super-skill-docs">
+            <a href="pdf/doc_technique/proxmox instalation.pdf" target="_blank" class="super-skill-doc-link">
+              <i class="fa-solid fa-file-pdf text-gray-400 super-skill-doc-icon"></i>
+              <span>Installation Proxmox</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 6. Serveurs Linux & Administration -->
+        <div id="comp-linux" class="card card-hover stagger-item" data-category="système">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="logo-container">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux">
+            </div>
+            <h3 class="font-semibold text-white">Systèmes GNU/Linux</h3>
+          </div>
+          <p class="text-gray-400 text-sm mb-4">Installation de serveurs Debian en ligne de commande, configuration des
+            accès distants sécurisés via SSH.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="badge">Debian</span>
+            <span class="badge">SSH</span>
+          </div>
+          <div class="super-skill-docs">
+            <a href="pdf/projets/Documentation-Installation Debian 12.1.0.pdf" target="_blank"
+              class="super-skill-doc-link">
+              <i class="fa-solid fa-file-pdf text-gray-400 super-skill-doc-icon"></i>
+              <span>Installation CLI Debian</span>
+            </a>
+            <a href="pdf/doc_technique/Documentation-Installation et Configuration SSH sur Debian.pdf" target="_blank"
+              class="super-skill-doc-link">
+              <i class="fa-solid fa-file-pdf text-gray-400 super-skill-doc-icon"></i>
+              <span>Configuration SSH</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- Projets -->
+    <section id="projets" class="section" data-aos="fade-up">
+      <h2 class="section-title"><span>Projets</span></h2>
+      <div class="section-divider"></div>
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="card card-hover stagger-item" data-aos="zoom-in">
+          <div class="flex flex-col items-center text-center">
+            <div class="project-icon mb-4" style="font-size: 2.5rem;">🗂️</div>
+            <h3 class="font-semibold text-white mb-2">Active Directory</h3>
+            <p class="text-gray-400 text-sm">Mettre en place un annuaire centralisé pour gérer les comptes, groupes, unités d'organisation et accès aux ressources d'un domaine Windows.</p>
+          </div>
+        </article>
+
+        <article class="card card-hover stagger-item" data-aos="zoom-in" data-aos-delay="100">
+          <div class="flex flex-col items-center text-center">
+            <div class="project-icon mb-4" style="font-size: 2.5rem;">🎫</div>
+            <h3 class="font-semibold text-white mb-2">GLPI</h3>
+            <p class="text-gray-400 text-sm">Déployer un outil de gestion de parc et de support pour inventorier les équipements, centraliser les demandes et suivre les incidents.</p>
+          </div>
+        </article>
+
+        <article class="card card-hover stagger-item" data-aos="zoom-in" data-aos-delay="200">
+          <div class="flex flex-col items-center text-center">
+            <div class="project-icon mb-4" style="font-size: 2.5rem;">🔄</div>
+            <h3 class="font-semibold text-white mb-2">Synchronisation LDAP</h3>
+            <p class="text-gray-400 text-sm">Synchroniser les identités et leurs attributs entre l'annuaire LDAP et les services connectés afin de conserver des comptes cohérents.</p>
+          </div>
+        </article>
+
+        <article class="card card-hover stagger-item" data-aos="zoom-in" data-aos-delay="300">
+          <div class="flex flex-col items-center text-center">
+            <div class="project-icon mb-4" style="font-size: 2.5rem;">🌐</div>
+            <h3 class="font-semibold text-white mb-2">Routage inter-VLAN</h3>
+            <p class="text-gray-400 text-sm">Configurer la communication entre plusieurs VLAN via un équipement de couche 3, tout en maîtrisant les flux autorisés entre réseaux.</p>
+          </div>
+        </article>
+
+        <article class="card card-hover stagger-item" data-aos="zoom-in" data-aos-delay="400">
+          <div class="flex flex-col items-center text-center">
+            <div class="project-icon mb-4" style="font-size: 2.5rem;">🧭</div>
+            <h3 class="font-semibold text-white mb-2">OSPF</h3>
+            <p class="text-gray-400 text-sm">Mettre en place le routage dynamique OSPF entre routeurs pour partager automatiquement les routes et s'adapter aux changements de topologie.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Expériences -->
+    <section id="experiences" class="section" data-aos="fade-up">
+      <h2 class="section-title"><span>Expériences Professionnelles</span></h2>
+      <div class="section-divider"></div>
+      <div class="max-w-4xl mx-auto">
+        <div class="card card-hover stagger-item">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="logo-container">
+              <span style="color: #f97316; font-size: 0.9rem; font-weight: 800; text-align: center;">PA</span>
+            </div>
+            <div class="flex-1">
+              <div class="flex justify-between items-start flex-wrap gap-2">
+                <h3 class="font-semibold text-white">Stage de première année BTS SIO — Privilege Academie</h3>
+                <span class="badge">21 mai – 3 juillet · 7 semaines</span>
+              </div>
+              <p class="text-gray-500 text-sm mt-1">Stagiaire au sein de la Direction des Systèmes d'Information</p>
+              <p class="text-accent text-xs mt-1 font-medium">Support utilisateurs · Systèmes et réseaux · Développement d'outils métiers</p>
+            </div>
+          </div>
+          <div class="grid md:grid-cols-2 gap-5 text-gray-400 text-sm">
+            <div>
+              <h4 class="text-white font-semibold mb-2">Support et déploiement</h4>
+              <ul class="space-y-2">
+                <li class="flex items-start gap-2"><span class="text-accent">▸</span><span>Prise en charge de tickets GLPI, assistance utilisateurs et gestion de comptes Active Directory.</span></li>
+                <li class="flex items-start gap-2"><span class="text-accent">▸</span><span>Préparation et déploiement de postes Windows 11 via WDS/MDT et PXE, intégration au domaine et application des GPO.</span></li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="text-white font-semibold mb-2">Projets et administration</h4>
+              <ul class="space-y-2">
+                <li class="flex items-start gap-2"><span class="text-accent">▸</span><span>Conception de GearTrack DSI, une application PHP/MariaDB pour gérer les prêts de matériel informatique.</span></li>
+                <li class="flex items-start gap-2"><span class="text-accent">▸</span><span>Déploiement d'une supervision Zabbix sur Debian, avec collecte de métriques par agents et SNMP.</span></li>
+              </ul>
+            </div>
+            <div class="md:col-span-2">
+              <h4 class="text-white font-semibold mb-2">Études de cas techniques</h4>
+              <p>Diagnostic d'incidents réseau et DHCP, correction de problèmes de sécurité web (SQLi/XSS), analyse d'une réplication Active Directory et intervention supervisée sur une grappe RAID 5 dégradée.</p>
+            </div>
+          </div>
+          <div class="mt-5">
+            <a href="pdf/stages/Raportstage.pdf" target="_blank" rel="noopener" class="btn-accent">📄 Voir le rapport de stage</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Certifications -->
+    <section id="certifications" class="section" data-aos="fade-up">
+      <h2 class="section-title"><span>Certifications</span></h2>
+      <div class="section-divider"></div>
+      <div class="max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <a href="pdf/certifications/notionsdebasesreseau.pdf" target="_blank"
+          class="card card-hover text-center stagger-item">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/1200px-Cisco_logo_blue_2016.svg.png"
+            alt="Cisco" class="cert-logo mx-auto mb-3">
+          <h3 class="font-medium text-white text-sm">Notions Réseaux</h3>
+          <p class="text-xs text-gray-600 mt-1">Cisco Networking Academy</p>
+        </a>
+        <a href="pdf/certifications/Python Essentials 1.pdf" target="_blank"
+          class="card card-hover text-center stagger-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"
+            class="cert-logo mx-auto mb-3">
+          <h3 class="font-medium text-white text-sm">Python Essentials 1</h3>
+          <p class="text-xs text-gray-600 mt-1">Cisco Networking Academy</p>
+        </a>
+        <a href="pdf/certifications/introcyber.pdf" target="_blank" class="card card-hover text-center stagger-item">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/1200px-Cisco_logo_blue_2016.svg.png"
+            alt="Cisco" class="cert-logo mx-auto mb-3">
+          <h3 class="font-medium text-white text-sm">Intro Cybersécurité</h3>
+          <p class="text-xs text-gray-600 mt-1">Cisco Networking Academy</p>
+        </a>
+        <a href="pdf/certifications/intropackettracer.pdf" target="_blank"
+          class="card card-hover text-center stagger-item">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/1200px-Cisco_logo_blue_2016.svg.png"
+            alt="Cisco" class="cert-logo mx-auto mb-3">
+          <h3 class="font-medium text-white text-sm">Packet Tracer</h3>
+          <p class="text-xs text-gray-600 mt-1">Cisco Networking Academy</p>
+        </a>
+        <div class="card card-hover text-center stagger-item relative">
+          <span class="absolute top-2 right-2 bg-yellow-500 text-black text-xs px-2 py-1 rounded-full font-semibold">En
+            cours</span>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/1200px-Cisco_logo_blue_2016.svg.png"
+            alt="Cisco" class="cert-logo mx-auto mb-3">
+          <h3 class="font-medium text-white text-sm">CCNA</h3>
+          <p class="text-xs text-gray-600 mt-1">Cisco Networking Academy</p>
+        </div>
+        <a href="pdf/certifications/pix_certification.pdf" target="_blank"
+          class="card card-hover text-center stagger-item">
+          <img src="https://pix.fr/images/pix-logo.svg" alt="PIX" class="cert-logo mx-auto mb-3">
+          <h3 class="font-medium text-white text-sm">PIX Digital Skills</h3>
+          <p class="text-xs text-gray-600 mt-1">PIX</p>
+        </a>
+        <a href="pdf/certifications/anssi capture.png" target="_blank"
+          class="card card-hover text-center stagger-item relative">
+          <img src="logo/Anssi.png" alt="ANSSI" class="cert-logo mx-auto mb-3">
+          <h3 class="font-medium text-white text-sm">SecNumAcadémie</h3>
+          <p class="text-xs text-gray-600 mt-1">ANSSI</p>
+        </a>
+      </div>
+    </section>
+
+
+    <!-- Veille Technologique -->
+    <section id="veille" class="section" data-aos="fade-up">
+      <h2 class="section-title"><span>Veille Technologique</span></h2>
+      <p class="section-subtitle">Méthodologie, Outils et Analyse</p>
+      <div class="section-divider"></div>
+
+      <div class="max-w-4xl mx-auto">
+        <!-- Thème -->
+        <div class="card card-hover mb-8 stagger-item">
+          <div class="flex items-center gap-4 mb-4">
+            <span class="text-4xl">🏥</span>
+            <div>
+              <h3 class="font-semibold text-white text-lg">L'Intelligence Artificielle dans la médecine
+              </h3>
+              <p class="text-accent text-sm">Synthèse de la veille (2024-2026)</p>
+            </div>
+          </div>
+          <p class="text-gray-400 leading-relaxed">
+            Cette veille technologique met en lumière la double révolution de l'IA en santé. D'un côté, elle s'intègre
+            massivement dans les parcours de soins hospitaliers pour assister les médecins (diagnostic prédictif des
+            cancers, automatisation administrative, cadre éthique). De l'autre, elle sort de la clinique pour se mettre
+            au service direct du handicap via l'IA embarquée (lunettes intelligentes pour malvoyants, prothèses
+            bioniques autonomes) et les neurotechnologies (implants cérébraux décodant la pensée).
+          </p>
+        </div>
+
+        <!-- Analyse -->
+        <h3 class="text-accent mb-6 font-semibold text-lg">Analyse du Sujet</h3>
+        <div class="grid md:grid-cols-3 gap-6 mb-10">
+          <div class="card border-l-4" style="border-left-color: #3b82f6;">
+            <h4 class="font-semibold text-white mb-2">🏥 IA en Milieu Hospitalier</h4>
+            <p class="text-gray-500 text-sm leading-relaxed">
+              L'IA assiste les médecins dans leurs diagnostics (ex. CHAI pour le cancer du pancréas) et permet de passer
+              d'une médecine réactive à une médecine préventive en analysant de vastes quantités de données de santé ou
+              de biomarqueurs.
+            </p>
+          </div>
+          <div class="card border-l-4" style="border-left-color: #ef4444;">
+            <h4 class="font-semibold text-white mb-2">🦾 IA & Handicap</h4>
+            <p class="text-gray-500 text-sm leading-relaxed">
+              L'IA sort des hôpitaux pour devenir embarquée. Elle se met au service direct des patients grâce à des
+              dispositifs comme les lunettes connectées en réalité augmentée, servant d'aide à la mobilité et
+              d'assistance contextuelle pour les malvoyants.
+            </p>
+          </div>
+          <div class="card border-l-4" style="border-left-color: #22c55e;">
+            <h4 class="font-semibold text-white mb-2">🧠 Neurotechnologies</h4>
+            <p class="text-gray-500 text-sm leading-relaxed">
+              Des initiatives mondiales développent l'IA pour la santé cérébrale. L'intelligence artificielle permet le
+              diagnostic précoce des maladies neurodégénératives et ouvre la voie aux implants décodant la pensée.
+            </p>
+          </div>
+        </div>
+
+        <!-- Outils IA -->
+        <h3 class="text-accent mb-6 font-semibold text-lg">Acteurs et Solutions IA</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+          <div class="card card-hover text-center p-4 stagger-item">
+            <span class="text-3xl mx-auto mb-3 block">🧠</span>
+            <span class="block font-medium text-white">Neuralink</span>
+            <span class="text-xs text-gray-600 mt-1">Implant cérébral et neurotechnologies</span>
+          </div>
+          <div class="card card-hover text-center p-4 stagger-item">
+            <span class="text-3xl mx-auto mb-3 block">🦾</span>
+            <span class="block font-medium text-white">Wandercraft & Ekso Bionics</span>
+            <span class="text-xs text-gray-600 mt-1">Exosquelettes et assistance à la marche</span>
+          </div>
+          <div class="card card-hover text-center p-4 stagger-item">
+            <span class="text-3xl mx-auto mb-3 block">💊</span>
+            <span class="block font-medium text-white">Synapse & Posos</span>
+            <span class="text-xs text-gray-600 mt-1">Sécurisation et aide à la prescription</span>
+          </div>
+          <div class="card card-hover text-center p-4 stagger-item">
+            <span class="text-3xl mx-auto mb-3 block">🧬</span>
+            <span class="block font-medium text-white">Owkin</span>
+            <span class="text-xs text-gray-600 mt-1">Licorne française utilisant l'IA pour la médecine de
+              précision</span>
+          </div>
+        </div>
+
+        <!-- Méthodologie -->
+        <div class="card card-hover mb-10 stagger-item">
+          <h3 class="text-accent mb-4 font-semibold">⚙️ Méthodologie</h3>
+          <p class="text-gray-400 mb-4">
+            J'utilise l'application Feedly pour centraliser l'information des articles.Flux RSS avec des
+            Alertes Google et réseaux sociaux en complément.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <span class="tag">📡 Feedly</span>
+            <span class="tag">🔔 Google Alerts</span>
+            <span class="tag">🐦 Twitter/X</span>
+          </div>
+        </div>
+
+        <!-- Sources -->
+        <h3 class="text-accent mb-6 font-semibold text-lg">Sources Principales</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+          <a href="https://www.inserm.fr/" target="_blank" class="card card-hover text-center p-4 stagger-item">
+            <span class="block font-medium text-white">Inserm</span>
+            <span class="text-xs text-gray-600">Recherche Médicale</span>
+          </a>
+          <a href="https://www.doctissimo.fr/" target="_blank" class="card card-hover text-center p-4 stagger-item">
+            <span class="block font-medium text-white">Doctissimo</span>
+            <span class="text-xs text-gray-600">Santé & Médecine</span>
+          </a>
+          <a href="https://institutducerveau.org/" target="_blank" class="card card-hover text-center p-4 stagger-item">
+            <span class="block font-medium text-white">Institut du Cerveau</span>
+            <span class="text-xs text-gray-600">Recherche Neuroscience</span>
+          </a>
+          <a href="https://www.has-sante.fr/" target="_blank" class="card card-hover text-center p-4 stagger-item">
+            <span class="block font-medium text-white">HAS</span>
+            <span class="text-xs text-gray-600">Haute Autorité de Santé</span>
+          </a>
+        </div>
+
+        <!-- Articles -->
+        <h3 class="text-accent mb-6 font-semibold text-lg">Articles Récents</h3>
+        <div class="space-y-4">
+          <a href="https://www.timefrance.fr/idees/le-systeme-de-sante-est-le-plus-grand-defi-de-lia/" target="_blank"
+            class="card card-hover block stagger-item">
+            <h4 class="font-medium text-white mb-1">Le système de santé est le plus grand défi de l'IA</h4>
+            <p class="text-gray-500 text-sm">Analyse sur le passage d'une médecine réactive à préventive via l'IA, et
+              les défis de la santé globale.</p>
+            <span class="text-accent text-xs mt-2 inline-block">TIME France — Mars 2026 →</span>
+          </a>
+          <a href="https://www.doctissimo.fr/sante/maladies/cancer-maladies/cancer-du-pancreas/cancer-du-pancreas-cette-ia-revolutionnaire-evite-aux-patients-des-mois-de-chimiotherapie-inadaptee-740702.htm"
+            target="_blank" class="card card-hover block stagger-item">
+            <h4 class="font-medium text-white mb-1">Cette IA révolutionnaire évite des mois de chimiothérapie inadaptée
+            </h4>
+            <p class="text-gray-500 text-sm">L'IA CHAI analyse la pathologie numérique du cancer du pancréas pour
+              prédire le meilleur traitement chimiothérapeutique pour chaque patient.</p>
+            <span class="text-accent text-xs mt-2 inline-block">Doctissimo — Mars 2026 →</span>
+          </a>
+          <a href="https://group.bnpparibas/actualite/louis-letinier-le-medecin-entrepreneur-pionnier-de-l-ia-medicale-francaise"
+            target="_blank" class="card card-hover block stagger-item">
+            <h4 class="font-medium text-white mb-1">Louis Letinier, pionnier de l'IA médicale française</h4>
+            <p class="text-gray-500 text-sm">Portrait du médecin entrepreneur derrière Synapse Medicine, une IA d'aide à
+              la prescription de médicaments pour sécuriser les traitements.</p>
+            <span class="text-accent text-xs mt-2 inline-block">BNP Paribas — Février 2026 →</span>
+          </a>
+          <a href="https://presseagence.fr/new-york-wandercraft-leve-75m-pour-lia-robotique/" target="_blank"
+            class="card card-hover block stagger-item">
+            <h4 class="font-medium text-white mb-1">Wandercraft lève 75 millions de dollars pour révolutionner la
+              robotique et la mobilité</h4>
+            <p class="text-gray-500 text-sm">Levée de fonds record pour le leader français de la robotique humanoïde,
+              avec pour objectif la commercialisation d'Eve, le premier exosquelette personnel auto-équilibré.</p>
+            <span class="text-accent text-xs mt-2 inline-block">Presse Agence — Juin 2025 →</span>
+          </a>
+          <a href="https://www.augmented-reality.fr/2026/02/debrief-ces-2026-linvasion-des-lunettes-connectees-est-en-cours/"
+            target="_blank" class="card card-hover block stagger-item">
+            <h4 class="font-medium text-white mb-1">Débrief CES 2026 : L'invasion des lunettes connectées</h4>
+            <p class="text-gray-500 text-sm">Comment l'IA s'invite dans la XR (Réalité Étendue) par l'intermédiaire de
+              lunettes connectées servant notamment d'aide à la mobilité pour malvoyants.</p>
+            <span class="text-accent text-xs mt-2 inline-block">Augmented Reality — Février 2026 →</span>
+          </a>
+        </div>
+
+        <!-- Document Excel Veille -->
+        <div class="mt-8 text-center stagger-item">
+          <a href="veille/veille Ia dans la santé.xlsx" download
+            class="btn-primary inline-flex gap-2 items-center justify-center">
+            <span>📊 Télécharger le tableau complet de la veille (Excel)</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Documents Officiels -->
+    <section id="documents-officiels" class="section" data-aos="fade-up">
+      <h2 class="section-title"><span>Documents Officiels</span></h2>
+      <div class="section-divider"></div>
+
+      <div class="max-w-4xl mx-auto">
+        <!-- CV -->
+        <div class="mb-8 stagger-item">
+          <a href="pdf/officiels/cv-russel-simo.html" target="_blank" rel="noopener" class="btn-accent text-xs">📄 Consulter le CV de Russel Simo</a>
+        </div>
+
+        <!-- Tableau de Synthèse -->
+        <div class="text-center stagger-item">
+          <a href="pdf/officiels/Tableau de synthese Lyes.pdf" target="_blank" class="btn-primary inline-flex gap-2 items-center justify-center">
+            <span>📊 Consulter le Tableau de Synthèse E4 (PDF)</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section" data-aos="fade-up">
+      <h2 class="section-title"><span>Contact</span></h2>
+      <p class="section-subtitle">Contactez-moi par e-mail ou téléphone.</p>
+      <div class="section-divider"></div>
+
+      <div class="max-w-2xl mx-auto contact-wrapper">
+        <form action="https://formsubmit.co/arolsimo78@gmail.com" method="POST" class="card space-y-5 w-full">
+          <!-- FormSubmit Configuration -->
+          <input type="hidden" name="_subject" value="Nouveau message depuis ton Portfolio !">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          
+          <div class="grid md:grid-cols-2 gap-4">
+            <input type="text" name="name" placeholder="Votre nom" required class="form-input">
+            <input type="email" name="email" placeholder="Votre email" required class="form-input">
+          </div>
+          <textarea name="message" rows="5" placeholder="Votre message..." required
+            class="form-input resize-none"></textarea>
+          <button type="submit" class="btn-primary w-full">Envoyer le message →</button>
+        </form>
+
+        <div class="contact-methods">
+          <a href="mailto:arolsimo78@gmail.com" class="contact-method">✉ <span>arolsimo78@gmail.com</span></a>
+          <a href="tel:+33695540173" class="contact-method">☎ <span>06 95 54 01 73</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2026 <span class="text-accent">Simo Pokaha Russel Arol</span> — BTS SIO SISR • Institut F2I, Vincennes</p>
+    </footer>
+
+  </main>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js?v=3"></script>
+  <script src="assets/js/gaming-bg.js"></script>
+
+</body>
+
+</html>
