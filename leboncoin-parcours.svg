@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+  <title id="title">Parcours fonctionnels du projet Leboncoin</title>
+  <desc id="desc">Illustrations des écrans d'authentification, de recherche, de publication, des favoris et de la messagerie.</desc>
+  <rect width="1440" height="760" rx="24" fill="#071b26"/>
+  <text x="64" y="76" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Parcours de l'application</text>
+  <text x="64" y="108" fill="#9fb0bb" font-family="Inter, Arial, sans-serif" font-size="15">Vues illustratives reconstituées à partir des fonctionnalités décrites dans le dossier</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(56 150)">
+      <rect width="250" height="540" rx="16" fill="#102a38" stroke="#284452"/>
+      <text x="20" y="36" fill="#fb923c" font-size="13" font-weight="700">01 · ACCÈS AU COMPTE</text>
+      <rect x="18" y="62" width="214" height="228" rx="11" fill="#f8fafc"/>
+      <text x="34" y="92" fill="#12303d" font-size="18" font-weight="700">Inscription</text>
+      <rect x="34" y="110" width="182" height="30" rx="5" fill="#fff" stroke="#cbd5e1"/>
+      <text x="45" y="130" fill="#64748b" font-size="11">Nom et prénom</text>
+      <rect x="34" y="150" width="182" height="30" rx="5" fill="#fff" stroke="#cbd5e1"/>
+      <text x="45" y="170" fill="#64748b" font-size="11">Adresse e-mail</text>
+      <rect x="34" y="190" width="182" height="30" rx="5" fill="#fff" stroke="#cbd5e1"/>
+      <text x="45" y="210" fill="#64748b" font-size="11">Mot de passe</text>
+      <rect x="34" y="235" width="182" height="34" rx="5" fill="#f97316"/>
+      <text x="125" y="257" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">Créer mon compte</text>
+      <text x="20" y="334" fill="#dbe5ea" font-size="15" font-weight="700">Connexion</text>
+      <rect x="18" y="352" width="214" height="140" rx="11" fill="#f8fafc"/>
+      <rect x="34" y="375" width="182" height="30" rx="5" fill="#fff" stroke="#cbd5e1"/>
+      <text x="45" y="395" fill="#64748b" font-size="11">Adresse e-mail</text>
+      <rect x="34" y="415" width="182" height="30" rx="5" fill="#fff" stroke="#cbd5e1"/>
+      <text x="45" y="435" fill="#64748b" font-size="11">Mot de passe</text>
+      <rect x="34" y="457" width="182" height="22" rx="4" fill="#f97316"/>
+      <text x="125" y="472" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">Se connecter</text>
+      <text x="20" y="518" fill="#9fb0bb" font-size="12">POST · session utilisateur</text>
+    </g>
+
+    <g transform="translate(336 150)">
+      <rect width="250" height="540" rx="16" fill="#102a38" stroke="#284452"/>
+      <text x="20" y="36" fill="#fb923c" font-size="13" font-weight="700">02 · RECHERCHER</text>
+      <rect x="18" y="62" width="214" height="470" rx="11" fill="#f8fafc"/>
+      <rect x="18" y="62" width="214" height="42" rx="11" fill="#fff"/>
+      <text x="36" y="88" fill="#f97316" font-size="11" font-weight="700">Accueil   Publier   Favoris</text>
+      <rect x="32" y="122" width="186" height="34" rx="5" fill="#fff" stroke="#cbd5e1"/>
+      <text x="43" y="144" fill="#64748b" font-size="11">Que recherchez-vous ?</text>
+      <rect x="32" y="165" width="186" height="31" rx="5" fill="#fff" stroke="#cbd5e1"/>
+      <text x="43" y="185" fill="#64748b" font-size="11">Toutes les catégories  ▾</text>
+      <rect x="32" y="205" width="186" height="30" rx="5" fill="#f97316"/>
+      <text x="125" y="225" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">Rechercher</text>
+      <g transform="translate(32 251)">
+        <rect width="186" height="118" rx="7" fill="#fff" stroke="#e2e8f0"/>
+        <rect width="186" height="57" rx="7" fill="#d7e8e4"/>
+        <circle cx="93" cy="28" r="18" fill="#f5a46f"/>
+        <path d="M80 34h26l-5-13H85z" fill="#2a6170"/>
+        <text x="12" y="79" fill="#64748b" font-size="9">VÉHICULE</text>
+        <text x="12" y="97" fill="#12303d" font-size="12" font-weight="700">Annonce publiée</text>
+        <text x="12" y="112" fill="#f97316" font-size="11" font-weight="700">1 700 €</text>
+      </g>
+      <g transform="translate(32 381)">
+        <rect width="186" height="118" rx="7" fill="#fff" stroke="#e2e8f0"/>
+        <rect width="186" height="57" rx="7" fill="#e9e4d7"/>
+        <rect x="71" y="12" width="44" height="34" rx="7" fill="#5d8b8b"/>
+        <circle cx="93" cy="29" r="8" fill="#d9edf0"/>
+        <text x="12" y="79" fill="#64748b" font-size="9">TÉLÉPHONE</text>
+        <text x="12" y="97" fill="#12303d" font-size="12" font-weight="700">Annonce récente</text>
+        <text x="12" y="112" fill="#f97316" font-size="11" font-weight="700">900 €</text>
+      </g>
+    </g>
+
+    <g transform="translate(616 150)">
+      <rect width="250" height="540" rx="16" fill="#102a38" stroke="#284452"/>
+      <text x="20" y="36" fill="#fb923c" font-size="13" font-weight="700">03 · PUBLIER / MODIFIER</text>
+      <rect x="18" y="62" width="214" height="470" rx="11" fill="#f8fafc"/>
+      <text x="34" y="98" fill="#12303d" font-size="18" font-weight="700">Déposer une annonce</text>
+      <text x="34" y="133" fill="#64748b" font-size="10">Titre de l'annonce</text>
+      <rect x="34" y="141" width="182" height="31" rx="5" fill="#fff" stroke="#cbd5e1"/>
+      <text x="45" y="161" fill="#12303d" font-size="11">Vélo en bon état</text>
+      <text x="34" y="196" fill="#64748b" font-size="10">Prix et catégorie</text>
+      <rect x="34" y="204" width="83" height="31" rx="5" fill="#fff" stroke="#cbd5e1"/>
+      <text x="45" y="224" fill="#12303d" font-size="11">120 €</text>
+      <rect x="125" y="204" width="91" height="31" rx="5" fill="#fff" stroke="#cbd5e1"/>
+      <text x="136" y="224" fill="#12303d" font-size="10">Catégorie ▾</text>
+      <text x="34" y="260" fill="#64748b" font-size="10">Description</text>
+      <rect x="34" y="268" width="182" height="76" rx="5" fill="#fff" stroke="#cbd5e1"/>
+      <text x="45" y="289" fill="#64748b" font-size="10">Décrivez votre article...</text>
+      <rect x="34" y="360" width="182" height="77" rx="5" fill="#e9f1f3" stroke="#b9ccd3" stroke-dasharray="5 4"/>
+      <circle cx="125" cy="388" r="13" fill="#9fb9c2"/>
+      <path d="M105 420l16-18 10 10 10-12 17 20z" fill="#69939e"/>
+      <text x="125" y="432" fill="#36515b" font-size="9" text-anchor="middle">Ajouter une photo</text>
+      <rect x="34" y="456" width="182" height="34" rx="5" fill="#f97316"/>
+      <text x="125" y="478" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">Publier l'annonce</text>
+      <text x="20" y="518" fill="#9fb0bb" font-size="12">Mes annonces · modifier · supprimer</text>
+    </g>
+
+    <g transform="translate(896 150)">
+      <rect width="250" height="540" rx="16" fill="#102a38" stroke="#284452"/>
+      <text x="20" y="36" fill="#fb923c" font-size="13" font-weight="700">04 · FAVORIS</text>
+      <rect x="18" y="62" width="214" height="470" rx="11" fill="#f8fafc"/>
+      <text x="34" y="99" fill="#12303d" font-size="18" font-weight="700">Mes favoris</text>
+      <g transform="translate(34 120)">
+        <rect width="182" height="155" rx="8" fill="#fff" stroke="#e2e8f0"/>
+        <rect width="182" height="85" rx="8" fill="#d9e8e7"/>
+        <path d="M22 64h138l-12-36H42z" fill="#397386"/>
+        <circle cx="55" cy="65" r="14" fill="#193a48"/><circle cx="132" cy="65" r="14" fill="#193a48"/>
+        <text x="14" y="108" fill="#12303d" font-size="12" font-weight="700">VÉHICULE</text>
+        <text x="14" y="130" fill="#f97316" font-size="13" font-weight="700">1 700 €</text>
+        <text x="158" y="131" fill="#e85d46" font-size="18">♥</text>
+      </g>
+      <g transform="translate(34 294)">
+        <rect width="182" height="155" rx="8" fill="#fff" stroke="#e2e8f0"/>
+        <rect width="182" height="85" rx="8" fill="#e8e1d4"/>
+        <rect x="68" y="18" width="46" height="52" rx="9" fill="#526d7a"/>
+        <rect x="74" y="25" width="34" height="37" rx="4" fill="#b9dbe0"/>
+        <text x="14" y="108" fill="#12303d" font-size="12" font-weight="700">TÉLÉPHONE</text>
+        <text x="14" y="130" fill="#f97316" font-size="13" font-weight="700">900 €</text>
+        <text x="158" y="131" fill="#e85d46" font-size="18">♥</text>
+      </g>
+      <text x="20" y="490" fill="#9fb0bb" font-size="12">Retrouver ses annonces enregistrées</text>
+    </g>
+
+    <g transform="translate(1176 150)">
+      <rect width="208" height="540" rx="16" fill="#102a38" stroke="#284452"/>
+      <text x="20" y="36" fill="#fb923c" font-size="13" font-weight="700">05 · MESSAGES</text>
+      <rect x="16" y="62" width="176" height="470" rx="11" fill="#f8fafc"/>
+      <text x="31" y="98" fill="#12303d" font-size="17" font-weight="700">Messages reçus</text>
+      <g transform="translate(29 120)">
+        <rect width="150" height="106" rx="8" fill="#e8eef0"/>
+        <rect width="4" height="106" rx="2" fill="#f97316"/>
+        <text x="15" y="24" fill="#12303d" font-size="10" font-weight="700">Vendeur · Vélo</text>
+        <rect x="12" y="36" width="126" height="38" rx="5" fill="#fff"/>
+        <text x="21" y="59" fill="#52636b" font-size="10">Bonjour, est-il disponible ?</text>
+        <rect x="12" y="82" width="126" height="16" rx="4" fill="#f97316"/>
+        <text x="75" y="94" fill="#fff" font-size="9" text-anchor="middle">Répondre</text>
+      </g>
+      <g transform="translate(29 240)">
+        <rect width="150" height="106" rx="8" fill="#e8eef0"/>
+        <rect width="4" height="106" rx="2" fill="#f97316"/>
+        <text x="15" y="24" fill="#12303d" font-size="10" font-weight="700">Acheteur · Livre</text>
+        <rect x="12" y="36" width="126" height="38" rx="5" fill="#fff"/>
+        <text x="21" y="59" fill="#52636b" font-size="10">Pouvez-vous me rappeler ?</text>
+        <rect x="12" y="82" width="126" height="16" rx="4" fill="#f97316"/>
+        <text x="75" y="94" fill="#fff" font-size="9" text-anchor="middle">Répondre</text>
+      </g>
+      <rect x="29" y="370" width="150" height="111" rx="8" fill="#fff" stroke="#cbd5e1"/>
+      <text x="43" y="394" fill="#64748b" font-size="10">Écrire un message...</text>
+      <rect x="41" y="440" width="126" height="24" rx="4" fill="#f97316"/>
+      <text x="104" y="456" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">Envoyer</text>
+      <text x="20" y="510" fill="#9fb0bb" font-size="11">Échange lié à une annonce</text>
+    </g>
+  </g>
+</svg>

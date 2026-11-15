@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Planning Gantt du projet Leboncoin</title>
+  <desc id="desc">Conception du 20 au 31 mars 2026, développement du 1er au 10 avril, design du 13 au 17 avril, tests les 20 et 21 avril.</desc>
+  <rect width="1200" height="390" rx="20" fill="#0c202a"/>
+  <text x="40" y="52" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Planning prévisionnel · mars–avril 2026</text>
+  <text x="40" y="78" fill="#9fb0bb" font-family="Inter, Arial, sans-serif" font-size="13">Phases indiquées dans le diagramme de Gantt transmis</text>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="12" fill="#d5e0e5">
+    <text x="40" y="137">Conception initiale et base du projet</text>
+    <text x="40" y="197">Développement du cœur du site</text>
+    <text x="40" y="257">Design et stylisation</text>
+    <text x="40" y="317">Tests et validation finale</text>
+  </g>
+
+  <g transform="translate(390 105)">
+    <rect width="770" height="235" rx="8" fill="#102a38"/>
+    <g stroke="#29414c" stroke-width="1">
+      <path d="M0 0v235M110 0v235M220 0v235M330 0v235M440 0v235M550 0v235M660 0v235M770 0v235"/>
+      <path d="M0 58h770M0 117h770M0 176h770"/>
+    </g>
+    <g fill="#a9bac2" font-size="10" text-anchor="middle">
+      <text x="55" y="-12">20 mars</text><text x="165" y="-12">31 mars</text>
+      <text x="275" y="-12">1 avril</text><text x="385" y="-12">10 avril</text>
+      <text x="495" y="-12">13 avril</text><text x="605" y="-12">17 avril</text>
+      <text x="715" y="-12">20–21 avril</text>
+    </g>
+    <rect x="4" y="15" width="208" height="28" rx="5" fill="#4b9b9b"/>
+    <rect x="221" y="74" width="208" height="28" rx="5" fill="#f28e5b"/>
+    <rect x="443" y="133" width="108" height="28" rx="5" fill="#e1b654"/>
+    <rect x="662" y="192" width="43" height="28" rx="5" fill="#78a879"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="11" fill="#d5e0e5">
+    <circle cx="45" cy="360" r="5" fill="#4b9b9b"/><text x="57" y="364">Conception</text>
+    <circle cx="165" cy="360" r="5" fill="#f28e5b"/><text x="177" y="364">Développement</text>
+    <circle cx="310" cy="360" r="5" fill="#e1b654"/><text x="322" y="364">Design</text>
+    <circle cx="405" cy="360" r="5" fill="#78a879"/><text x="417" y="364">Tests</text>
+  </g>
+</svg>
